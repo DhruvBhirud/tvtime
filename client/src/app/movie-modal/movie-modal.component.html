@@ -19,5 +19,23 @@
         <h4 class="title">Sinopse:</h4>
         <p *ngIf="data.movie.Plot">{{ data.movie.Plot }}</p>
     </div>
+    <div class="">
+        <h4 class="title">Where to watch:</h4>
+            <button (click)="showStreamingInfo()">Show Streaming Info</button>
+            <div *ngIf="streamingInfoMessage" class="">
+              <ul>
+                <li *ngFor="let serviceInfo of streamingInfoMessage.split('\n')">
+                  <a *ngIf="serviceInfo.trim() !== ''" [href]="getServiceLink(serviceInfo)" target="_blank">
+                    <img *ngIf="isNetflix(serviceInfo)" src="/assets/servicelogo/netflix-dark.svg" alt="Netflix Logo" class="small-logo">
+                    <img *ngIf="isHotstar(serviceInfo)" src="/assets/servicelogo/hotstar-dark.svg" alt="Hotstar Logo" class="small-logo">
+                    <img *ngIf="isApple(serviceInfo)" src="/assets/servicelogo/apple-dark.svg" alt="Apple Logo" class="small-logo">
+                    <img *ngIf="isCuriosity(serviceInfo)" src="/assets/servicelogo/curiosity-dark.svg" alt="Curiosity Logo" class="small-logo">
+                    <img *ngIf="isMubi(serviceInfo)" src="/assets/servicelogo/mubi-dark.svg" alt="Mubi Logo" class="small-logo">
+                    <img *ngIf="isPrime(serviceInfo)" src="/assets/servicelogo/prime-dark.svg" alt="Prime Video Logo" class="small-logo">
+                    <img *ngIf="isZee5(serviceInfo)" src="/assets/servicelogo/zee5-dark.svg" alt="Zee5 Logo" class="small-logo">
+                  </a>
+              </ul>
+            </div>
+    </div>
 </div>
 
