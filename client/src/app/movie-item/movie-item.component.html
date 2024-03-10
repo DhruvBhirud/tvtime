@@ -1,7 +1,6 @@
 <div class="movie-container">
     <img (click)="openModal()" class="movie-poster" *ngIf="movie.Poster" src="{{ movie.Poster }}"
-         onError="this.src='404.jpg'"alt="">
-<!--        onError="this.src='https://github.com/joaoluizn/portfolio-content/blob/master/image_not_found.png?raw=true'"-->
+         onError="this.src='https://raw.githubusercontent.com/DhruvBhirud/tvtime/main/client/src/assets/404.jpg?raw=true'"alt="">
 
     <div (click)="openModal()" class="movie-info">
         <h2 *ngIf="movie.Title">{{ movie.Title }}</h2>
