@@ -16,13 +16,17 @@
         <p *ngIf="data.movie.Genre"> {{ data.movie.Genre }}</p>
     </div>
     <div class="plot">
-        <h4 class="title">Sinopse:</h4>
+        <h4 class="title">Synopsis:</h4>
         <p *ngIf="data.movie.Plot">{{ data.movie.Plot }}</p>
     </div>
-    <div class="">
+    <div>
         <h4 class="title">Where to watch:</h4>
-            <button (click)="showStreamingInfo()">Show Streaming Info</button>
-            <div *ngIf="streamingInfoMessage" class="">
+<!--        <button (click)="showStreamingInfo()">Show Streaming Info</button>-->
+      <div>
+        <span *ngIf="dataLoaded">Data is loaded</span><br>
+        <button mat-flat-button color="primary" (click)="showStreamingInfo()">Show Streaming Info</button>
+      </div>
+            <div *ngIf="streamingInfoMessage">
               <ul>
                 <li *ngFor="let serviceInfo of streamingInfoMessage.split('\n')">
                   <a *ngIf="serviceInfo.trim() !== ''" [href]="getServiceLink(serviceInfo)" target="_blank">
@@ -38,4 +42,3 @@
             </div>
     </div>
 </div>
-

@@ -11,6 +11,7 @@ import { MovieItemComponent } from './movie-item/movie-item.component';
 import { FavoriteResultComponent } from './favorite-result/favorite-result.component';
 import { StorageResultComponent } from './storage-result/storage-result.component';
 import { MovieModalComponent } from './movie-modal/movie-modal.component';
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { MovieModalComponent } from './movie-modal/movie-modal.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatDialogModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],

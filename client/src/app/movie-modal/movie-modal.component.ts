@@ -17,6 +17,7 @@ export class MovieModalComponent implements OnInit {
   streamingData: any; // Variable to store streaming availability data
   title: string = this.data.movie.Title;
   streamingInfoMessage: string = '';
+  dataLoaded: boolean = false;
   constructor(
     public dialogRef: MatDialogRef<MovieModalComponent>,
     @Inject(MAT_DIALOG_DATA) public data: DialogData,
@@ -56,6 +57,7 @@ export class MovieModalComponent implements OnInit {
         (response) => {
           this.streamingData = response;
           console.log(this.streamingData);
+          this.dataLoaded = true; // Set dataLoaded to true here
         },
         (error) => {
           console.error(error);
