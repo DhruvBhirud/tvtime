@@ -1,6 +1,6 @@
 # Watchlist Server Component
 
-This is the server component from Tvtime project. This project was made using Spring Boot Framework and Java 8.
+This is the server component from Tv Time project. This project was made using Spring Boot Framework and Java 8.
 
 ## Development Env
 The project was created using Intellij Idea and no extra configuration was added when running this project, just the main Spring Application.

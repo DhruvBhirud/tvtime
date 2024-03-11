@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/server/tvtime.iml" filepath="$PROJECT_DIR$/server/tvtime.iml" />
       <module fileurl="file://$PROJECT_DIR$/tvtimedb.iml" filepath="$PROJECT_DIR$/tvtimedb.iml" />
     </modules>
   </component>
