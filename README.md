@@ -1,6 +1,6 @@
 # TV Time - A Movie Watchlist App
 A Movie Watchlist Project using OMDB an IMDb API, Streaming Availability API, Java Spring Boot and Angular
-
+![TV Time Logo](./client/src/assets/tvtime.png)
 # Project Composition
 This project is split into two components:
 
