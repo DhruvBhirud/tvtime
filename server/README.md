@@ -37,6 +37,8 @@ $ java -jar tvtime-0.0.1-SNAPSHOT.jar --server.port=[Port-Number]
 ## Swagger Documentation
 The server has a Swagger Documentation, you can access it by going to:
 - [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+![Swagger UI](../assets/swaggerui.png)
 
 Or get raw JSON documentation:
 - [http://localhost:8080/v2/api-docs](http://localhost:8080/v2/api-docs)
+![Swagger JSON](../assets/api-docs.png)
