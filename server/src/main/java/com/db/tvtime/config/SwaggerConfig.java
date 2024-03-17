@@ -25,7 +25,7 @@ public class SwaggerConfig {
                 null,
                 "1.0",
                 null,
-                new Contact("Dhruv Bhirud", null, "bhiruddhruv@gmail.com"),
+                new Contact("TVTime", null, "tvtime@gmail.com"),
                 null,
                 null,
                 Collections.emptyList());

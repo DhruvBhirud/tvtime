@@ -26,3 +26,10 @@ The server side was built using Java Spring Boot Web framework.\
 ## Api Used
 * [OMDB API](http://www.omdbapi.com/)
 * [Streaming Availability API](https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability/)
+
+## Screenshots
+![Search Result](./assets/results.png)
+![Favorite](./assets/favorite_list.png)
+![History](./assets/search_history_list.png)
+![Movie Modal](./assets/movie_modal.png)
+![Movie Modal Where to Watch](./assets/movie_modal_whereToWatch.png)
