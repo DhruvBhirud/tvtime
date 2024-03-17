@@ -33,3 +33,10 @@ $ java -jar tvtime-0.0.1-SNAPSHOT.jar --server.port=[Port-Number]
 
 ## Api Implemented in Server Side
 * [OMDB API](http://www.omdbapi.com/)
+
+## Swagger Documentation
+The server has a Swagger Documentation, you can access it by going to:
+- [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+Or get raw JSON documentation:
+- [http://localhost:8080/v2/api-docs](http://localhost:8080/v2/api-docs)
