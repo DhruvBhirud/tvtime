@@ -31,4 +31,5 @@ Project should now be running on port 8080
 $ java -jar tvtime-0.0.1-SNAPSHOT.jar --server.port=[Port-Number]
 ```
 
-Thanks!
+## Api Implemented in Server Side
+* [OMDB API](http://www.omdbapi.com/)
