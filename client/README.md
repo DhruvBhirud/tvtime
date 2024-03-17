@@ -1,5 +1,4 @@
-# Watchlist Client Component
-
+# TV Time Client Component
 
 This is the client component from Watchlist project. This project baseline was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
 

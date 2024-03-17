@@ -1,4 +1,4 @@
-# Watchlist Server Component
+# TV Time Server Component
 
 This is the server component from Tv Time project. This project was made using Spring Boot Framework and Java 8.
 
