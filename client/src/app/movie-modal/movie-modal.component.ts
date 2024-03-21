@@ -41,7 +41,7 @@ export class MovieModalComponent implements OnInit {
 
     const options = {
       headers: {
-        'X-RapidAPI-Key': 'ed08221934mshb555142b8bdccc8p190505jsn118912ac71a0',
+        'X-RapidAPI-Key': 'your_key',
         'X-RapidAPI-Host': 'streaming-availability.p.rapidapi.com'
       },
       params: {
